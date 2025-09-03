@@ -9,4 +9,4 @@ Arquivos gerados:
 Como usar:
 1. Baixe o arquivo zip e extraia.
 2. Abra index.html no navegador.
-3. Edite mailto/WhatsApp/ textos conforme necessário.
+
