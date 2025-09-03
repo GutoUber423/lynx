@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lynx — Edição de Vídeos & Sites</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <img src="assets/logo.png" alt="Lynx logo" class="logo" />
+        <span class="brand-name">Lynx</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#home">Início</a>
+        <a href="#services">Serviços</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1 class="title">Lynx — Criação & Edição</h1>
+        <p class="subtitle">Edição de vídeos a partir de <strong>R$15</strong> | Sites a partir de <strong>R$100</strong></p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="mailto:contatolynx14@gmail.com?subject=Orçamento">Peça um orçamento</a>
+          <a class="btn btn-ghost" href="#services">Ver serviços</a>
+        </div>
+        <div class="hero-animation" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">Nossos serviços</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon">🎬</div>
+            <h3>Edição de Vídeo</h3>
+            <p>Recortes, color grading, legendas, cortes para redes sociais e versão final pronta para publicar.</p>
+            <div class="price">R$15 — R$30 por vídeo</div>
+            <a class="card-cta" href="mailto:contatolynx14@gmail.com?subject=Edição%20de%20Vídeo">Contratar</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🌐</div>
+            <h3>Criação de Sites</h3>
+            <p>Landing pages, sites institucionais, lojas simples e otimizações para SEO e velocidade.</p>
+            <div class="price">R$100 — R$150</div>
+            <a class="card-cta" href="mailto:contatolynx14@gmail.com?subject=Desenvolvimento%20de%20Site">Solicitar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Por que escolher a Lynx?</h2>
+        <p>Trabalhamos com foco em qualidade, pontualidade e comunicação. Entregas rápidas e preços justos para criadores, empresas e empreendedores.</p>
+        <ul class="about-list">
+          <li>Revisões incluídas</li>
+          <li>Entrega em formatos prontos para redes</li>
+          <li>Design responsivo e otimizado</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Fale com a gente</h2>
+        <p class="muted">Clique para abrir no WhatsApp ou enviar um e‑mail.</p>
+        <div class="contact-grid">
+          <a class="contact-card" href="https://wa.me/5511999999999?text=Olá%20Lynx%2C%20gostaria%20de%20um%20orçamento" target="_blank" rel="noopener">
+            <div class="contact-emoji">💬</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <div class="muted">Mensagem rápida</div>
+            </div>
+          </a>
+
+          <a class="contact-card" href="mailto:contatolynx14@gmail.com?subject=Orçamento%20Lynx">
+            <div class="contact-emoji">✉️</div>
+            <div>
+              <strong>E‑mail</strong>
+              <div class="muted">contato@lynx.com</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Lynx. Todos os direitos reservados.</div>
+      <div class="footer-links">
+        <a href="#privacy">Política</a>
+        <a href="#terms">Termos</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
